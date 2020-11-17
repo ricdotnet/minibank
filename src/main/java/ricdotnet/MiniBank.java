@@ -61,7 +61,7 @@ public class MiniBank {
                 accountnumber = generateAccountNumber();
                 accountbalance = 350;
                  //create and add the account on the arraylist
-                BankAccount newaccount = new MiniBank(getAccId(), getAccName(), getAccNumber(), getAccBalance());
+                BankAccount newaccount = new BankAccount(getAccId(), getAccName(), getAccNumber(), getAccBalance());
                 accounts.add(newaccount);
                 accountid++;
                 //accountNumbers.add(accountnumber);
