@@ -15,4 +15,9 @@ class AppTest {
     void testApp() {
         assertEquals(1, 1);
     }
+
+    void testMethod(){
+        Syste.out.pritnln("Hello");
+    
+    }
 }
